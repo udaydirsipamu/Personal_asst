@@ -93,7 +93,7 @@ def fetch_news(query):
 
 # Fetch Weather Function
 def fetch_weather(city):
-    api_key = "13b796249eb4707684ea7de952b1aea0"
+    api_key = ""
     url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
     response = requests.get(url).json()
 
